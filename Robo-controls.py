@@ -38,18 +38,16 @@ def left():
 
 #So the robot can move left
 
-ch = sys.stdin.read(1) # reads one character at a time
-
-if ch == "q":
+if "q":
     stop()
 else:
-    if ch == 'w':
+    if 'w':
         forward()
-    elif ch == "a":
+    elif "a":
         left()
-    elif ch == "s":
+    elif "s":
         backward()
-    elif ch == "d":
+    elif "d":
         right()
     else:
         stop()
